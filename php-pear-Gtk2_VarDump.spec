@@ -8,7 +8,7 @@ Summary:	%{_pearname} - a simple GUI to examine PHP data trees
 Summary(pl):	%{_pearname} - proste GUI do analizy drzew danych PHP
 Name:		php-pear-%{_pearname}
 Version:	0.2.0
-Release:	1
+Release:	2
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
@@ -17,7 +17,7 @@ URL:		http://pear.php.net/package/Gtk2_VarDump/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.300
-Requires:	php-gtk2
+Requires:	php(gtk2)
 Requires:	php-pear
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
