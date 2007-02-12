@@ -5,7 +5,7 @@
 %define		_pearname	Gtk2_VarDump
 
 Summary:	%{_pearname} - a simple GUI to examine PHP data trees
-Summary(pl):	%{_pearname} - proste GUI do analizy drzew danych PHP
+Summary(pl.UTF-8):   %{_pearname} - proste GUI do analizy drzew danych PHP
 Name:		php-pear-%{_pearname}
 Version:	0.2.0
 Release:	2
@@ -27,7 +27,7 @@ Just a regedit type interface to examine PHP data trees.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
+%description -l pl.UTF-8
 Interfejs w stylu regedit do analizy drzew danych PHP.
 
 Ta klasa ma w PEAR status: %{_status}.
